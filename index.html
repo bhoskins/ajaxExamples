@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Ajax Example</title>
+
+    <link rel="stylesheet" href="styles/main.css">
+
+    <script src="bower_components/modernizr/modernizr.js"></script>
+  </head>
+
+<body>
+
+  <div class="left">
+    <ul id="flower-items">
+      <li>
+        <a href="fragments/calla.html">
+          <span class="img"><img src="assets/images/flower1.jpg" alt="" width="160" height="160"></span>
+          <h4>Calla Lilies</h4>
+          <p class="price reset"></p>
+
+          <div class="info">
+            These are fine flowers.
+          </div>
+        </a>
+      </li>
+
+      <li>
+        <a href="fragments/sunflowers.html">
+          <span class="img"><img src="assets/images/flower2.jpg" alt="" width="160" height="160"></span>
+          <h4>Sunflowers</h4>
+          <p class="price reset"></p>
+
+          <div class="info">
+            These are fine flowers.
+          </div>
+        </a>
+      </li>
+
+      <li>
+        <a href="fragments/iris.html">
+          <span class="img"><img src="assets/images/flower3.jpg" alt="" width="160" height="160"></span>
+          <h4>Iris</h4>
+          <p class="price reset"></p>
+
+          <div class="info">
+            These are fine flowers.
+          </div>
+        </a>
+      </li>
+
+      <li>
+        <a href="fragments/alstromeria.html">
+          <span class="img"><img src="assets/images/flower4.jpg" alt="" width="160" height="160"></span>
+          <h4>Mystery Flower</h4>
+          <p class="price reset"></p>
+
+          <div class="info">
+            These are fine flowers.
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div><!-- .left -->
+
+  <div id="flower-description" class="right">
+    <h3>Learn More</h3>
+    <p>
+      Choose a flower arrangement to find out more about it.
+    </p>
+  </div>
+
+
+
+  <script type="text/template" id="this-template">
+  </script>
+
+  <script type="text/javascript" src="bower_components/jquery/dist/jquery.js">
+  </script>
+
+  <script type="text/javascript" src="bower_components/underscore/underscore.js">
+  </script>
+
+  <script type="text/javascript" src="bower_components/backbone/backbone.js">
+  </script>
+
+  <script type="text/javascript" src="scripts/main.js">
+  </script>
+
+</body>
+</html>

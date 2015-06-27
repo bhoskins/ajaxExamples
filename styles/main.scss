@@ -1,0 +1,29 @@
+@import 'bourbon/bourbon';
+@import 'neat/neat';
+
+ul, li, a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-type: none;
+  color: navy;
+}
+
+p {
+  color: #3b3b3b;
+}
+
+.left,
+.right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.left {
+  width: 30%;
+}
+
+.right {
+  width: 30%;
+  height: 300px;
+}
